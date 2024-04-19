@@ -8,7 +8,7 @@ function verificarTime() {
     var respostaTime = prompt("Qual é o hamburguer mais famoso do mundo?");
 
     
-    if (respostaTime.toLowerCase() === "BIG MAC") {
+    if (respostaTime.toLowerCase() === "big mac") {
       alert("Isso mesmo! O BIG MAC é o hamburguer mais famoso do mundo!");
       continuarPerguntando = false; // Sai do loop após a resposta correta
     } else {
