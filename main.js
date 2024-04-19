@@ -5,14 +5,14 @@ function verificarTime() {
 
   while (continuarPerguntando) {
     
-    var respostaTime = prompt("Qual o melhor time?");
+    var respostaTime = prompt("Qual é o hamburguer mais famoso do mundo?");
 
     
-    if (respostaTime.toLowerCase() === "Athlético PR") {
-      alert("Isso mesmo! O Athlético PR é o melhor time!");
+    if (respostaTime.toLowerCase() === "BIG MAC") {
+      alert("Isso mesmo! O BIG MAC é o hamburguer mais famoso do mundo!");
       continuarPerguntando = false; // Sai do loop após a resposta correta
     } else {
-      alert("Não é isso! Tente novamente.");
+      alert("Nada disso, comedor de fast food! Tente de novo.");
     }
   }
 }
