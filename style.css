@@ -1,4 +1,4 @@
-h1 {color: brown;
+h1 {color: yellow;
 }
 #texto-animado {
     font-family: 'Arial', sans-serif;
@@ -13,9 +13,11 @@ h1 {color: brown;
     animation: animacao-texto 5s infinite alternate;
 }
 
-#texto-animado {font-size: 150%;
-                color:red;
+#texto-animado {font-size: 300%;
+                color:yellow;
             }
+body { 
+    background-color: red;}
 
 @keyframes animacao-texto {
     0% {
